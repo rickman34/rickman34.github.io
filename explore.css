@@ -3,14 +3,13 @@ html body {
   margin: 0;
   padding: 0;
   background: #000 url(bg.jpg) no-repeat center top;
-  font-family: serif;
+  font-family:segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS" Verdana, sans-serif;
 }
 
 h1{
-  font-size: 72px;
+  font-size: 75px;
   color: white;
   font-family: sans-serif;
-  margin: 0;
 }
 
 h2{
@@ -53,7 +52,7 @@ nav a {
   font-size: 30px;
   text-decoration: none;
   font-weight: bold;
-  font-family: cursive;
+  font-family: 'Permanent Marker' cursive;
 }
 
 nav a:hover{
@@ -79,27 +78,27 @@ footer{
 }
 
 footer a{
-  color: gray;
+  color: #8CF0EF;
 }
 
 figure {
-  width: 260px;
+  width: 29%;
   background-color: #000;
-  padding: 10px;
+  padding: 1px;
   float: left;
-  margin: 15px;
+  margin: 1%;
   border: 1px solid white;
 }
 
 figcaption{
   color: white;
-  font-family: georgia, serif;
+  font-family: arial, sans-serif;
   text-align: center;
-  font-size: 80%;
+  font-size: 90%;
   width: 50%;
   margin: auto;
 }
 
 figure img{
-  margin-right: 0;
+width: 100%;
 }
