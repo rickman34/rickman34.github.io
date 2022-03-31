@@ -1,0 +1,112 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+font-family: Arial, sans-serif;
+}
+
+#wrap{
+  marging: 0 auto;
+  width: 75%;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header {
+  background-color:lightblue;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+nav {
+  background-color:#389;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #abcc;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding:  20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color:lightblue;
+  overflow: auto;
+}
+
+h1 {
+  text-align:
+}
+
+aside {
+  background-color: green;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+
+aside a{
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 10px 10px 30px;
+  text-align:center;
+}
+
+aside a:hover {
+  background-color: darkgreen;
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+article  {
+  background-color: lightblue;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+
+}
+
+footer {
+  background-color: #abcc;
+  text-align: center;
+  padding: 2%
+}
+
+.yesbird {
+  width: 35%;
+  float: center;
+  margin: 0 0 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
